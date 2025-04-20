@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Karan's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 90px;
+    background-color: rgb(43, 16, 67);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: black;
+}
+        /* Flexbox for aligning text on left & image on right */
+        main {
+            display: flex;
+            align-items: center; /* Vertically centers items */
+            justify-content: space-between; /* Puts space between text and image */
+            padding: 50px;
+        }
+        .left1 {
+            flex: 1; /* Takes available space */
+            text-align: left;
+        }
+        .right1 {
+            flex: 1;
+            display: flex;
+            ; /* Pushes image to the right */
+        }
+        .right1 img {
+            max-width: 100%; /* Ensures responsiveness */
+            height: auto;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                <a style="color: white; text-decoration: none;" href="index.html">Karan's Portfolio</a>
+            </div>
+            <div class="right">
+                <ul>
+                    
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="left1">
+            <h1 style="color: aqua;">Welcome to My Portfolio</h1><br>
+            <p style="font-size: 30px;">Hi, I'm Karan Rakshe, a passionate Data Science enthusiast and software developer with experience in machine learning, blockchain, and backend development. I have worked on various projects, including:
+            </p><br><br>
+                <ul style="font-size: 25px;"><li> Heart Disease & Heart Rate Prediction using KNN, Naive Bayes, and Logistic Regression
+                <li> To-do list using angular javascript
+                    <li> Fake News Detection using TF-IDF & Passive Aggressive Classifier
+                        <li> UGV (Unmanned Ground Vehicle) for Landmine Detection, integrating LiDAR & Ultrasonic Sensors
+                            <li> Backend Development with MongoDB & Docker, using Mongo Express for database management
+            </ul>
+            <br>
+            <p style="font-size: 30px;">
+                I am always eager to explore new technologies and build innovative solutions. My expertise includes Python, C++, Machine Learning, Docker, and Full-Stack Development.
+                
+                Let's connect and build something amazing! 🚀 
+            </p>
+        </div>
+        <div class="right1">
+            <img src="Cvpicture.jpg" width="300" height="400" alt="Karan's Picture" style="padding-left: 25%;">
+        </div>
+    </main>
+
+    <footer style="text-align: center;">
+        <p>&copy; 2025 Karan Rakshe | All rights reserved.</p>
+    </footer>
+</body>
+</html>

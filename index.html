@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karan Rakshe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Karan's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, my name is <span class=>Karan</span>
+                <div>and I am a</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="bg.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <h1>Projects</h1>
+        </section>
+        <hr class="hr2">
+        
+        <section class="experience">
+            <h1>Heart Disease Prediction</h1>
+            <p>Developed a machine learning model using KNN, Naive Bayes, and Logistic Regression to predict heart disease based on patient data.</p>
+        </section>
+        <hr class="hr2">
+        <section class="experience">
+            <h1>UGV for Landmine Detection</h1>
+            <p>Final year project focused on an Unmanned Ground Vehicle (UGV) with LiDAR and ultrasonic sensors for autonomous path planning and landmine detection.</p>
+        </section>
+        <hr class="hr2">
+        <section class="experience">
+            <h1>Fake News Detection</h1>
+            <p>Developed a machine learning model using TF-IDF and Passive Aggressive Classifier to classify news as real or fake.</p>
+        </section>
+        <hr class="hr2">
+        <section class="experience">
+            <h1>Dockerized Web App (MongoDB & Express)</h1>
+            <p>Built a web application that collects user data and stores it in a MongoDB database using Dockerized MongoDB and Mongo Express images.</p>
+        </section>
+        <hr class="hr2">
+        
+        <section class="experience">
+            <h1>To Do list</h1>
+            <p>Developed a to-do list to add and remove items making use of angular javascript,html and css</p>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-first"><h5>Karan's Portfolio | All rights reserved</h5></div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Data Science enthusiast', 'Coder', 'Computer Engineer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
